@@ -1,4 +1,5 @@
 import { UserProfile } from "./profile-comp/profile";
+import { userData } from "./profile-comp/user";
 export const App = () => {
   return (
     <div
@@ -11,7 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <UserProfile></UserProfile>
+      <UserProfile userData></UserProfile>
       React homework template
     </div>
   );
