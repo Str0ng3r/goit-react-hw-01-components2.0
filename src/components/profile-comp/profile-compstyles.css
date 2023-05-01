@@ -1,4 +1,4 @@
-.card-cont {
+.wrap-cont {
     margin: 0 auto;
     background-color: black;
     padding: 30px;
@@ -8,24 +8,33 @@
     align-items: center;
     justify-content: center;
 }
+.card-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .img-avatar {
     border-radius: 30px;
     width: 100px;
     padding: 5px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 .name {
     font-size: 36px;
     margin-bottom: 6px;
-    color: black;
+    color: #FFF;
+    margin-top: 0px;
 }
 .tag {
+    text-align: center;
     font-size: 16px;
     color: #FFFF21;
     margin-bottom: 6px;
 }
 .location {
-    color: black;
+    color: #FFF;
     font-size: 18px;
 }
 .wrap-cont {
@@ -36,10 +45,17 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    margin: 0;
 }
 .stat {
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.stat-span {
+    color: #1FF1FF;
 }

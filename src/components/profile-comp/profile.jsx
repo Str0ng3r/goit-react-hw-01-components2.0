@@ -8,11 +8,11 @@ export const UserProfile = ({username,tag,location,avatar,stats}) => {
 <p className="tag">@{tag}</p>
 <p className="location">{location}</p>
 </div>
-<div className="stats-cont">
-    <p className="stat">Followers <span className="stat-span">{stats.followers}</span></p>
-    <p className="stat">Views <span className="stat-span">{stats.views}</span></p>
-    <p className="stat">Likes <span className="stat-span">{stats.likes}</span></p>
-</div>
+<ul className="stats-cont">
+    <li className="stat">Followers <span className="stat-span">{stats.followers}</span></li>
+    <li className="stat">Views <span className="stat-span">{stats.views}</span></li>
+    <li className="stat">Likes <span className="stat-span">{stats.likes}</span></li>
+</ul>
 </div>
     );
 };
