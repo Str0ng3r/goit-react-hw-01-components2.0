@@ -1,0 +1,37 @@
+.users-list {
+display: flex;
+flex-direction: column;
+align-items: baseline;
+justify-content: center;
+gap: 10px;
+}
+.li-user {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: beige;
+    padding: 5px;
+    padding-right: 80px;
+    border-radius: 5px;
+}
+.avatar-user {
+    width: 50px;
+}
+.green-circ {
+    width: 30px;
+    background-color: green;
+    border-radius: 15px;
+    height: 30px;
+    margin-right: 5px;
+}
+.name-user {
+    font-size: 20px;
+    margin: 0;
+}
+.red-circ {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+}
