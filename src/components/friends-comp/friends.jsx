@@ -1,3 +1,4 @@
+import propTypes from "prop-types"
 export const ListFriends = ({dataFriend}) => {
     return (
         <section>
@@ -8,4 +9,7 @@ export const ListFriends = ({dataFriend}) => {
         </ul>
         </section>
     )
+}
+ListFriends.propTypes = {
+dataFriend: propTypes.array
 }

@@ -1,4 +1,4 @@
-
+import propTypes from "prop-types"
 export const UserProfile = ({username,tag,location,avatar,stats}) => {
     return (
         <div className="wrap-cont">
@@ -16,3 +16,11 @@ export const UserProfile = ({username,tag,location,avatar,stats}) => {
 </div>
     );
 };
+
+UserProfile.propTypes = {
+    username:propTypes.string,
+    tag:propTypes.string,
+    location:propTypes.string,
+    avatar:propTypes.string,
+    stats:propTypes.object
+}

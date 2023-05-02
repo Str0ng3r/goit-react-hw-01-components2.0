@@ -1,3 +1,4 @@
+import propTypes from "prop-types"
 export const AllStatistics = ({ statistics }) => {
     return (
       <section>
@@ -15,3 +16,6 @@ export const AllStatistics = ({ statistics }) => {
       </section>
     );
   };
+  AllStatistics.propTypes = {
+    statistics: propTypes.array
+  }

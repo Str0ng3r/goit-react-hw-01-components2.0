@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types"
 export const TransactionTable = ({transdata}) => {
     return(
         <table className="trans-table">
@@ -20,4 +20,7 @@ export const TransactionTable = ({transdata}) => {
   </tbody>
         </table>
     )
+}
+TransactionTable.propTypes = {
+  transdata: PropTypes.array
 }
