@@ -1,0 +1,17 @@
+.th-trans {
+    font-size: 20px;
+    width: 200px;
+    background-color: darkturquoise;
+    color: black;
+    padding: 20px 0 20px 0;
+}
+.td-trans {
+    background-color: darkgray;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    border-right: 0.2px solid #212121;
+    border-left:0.2px solid #212121;
+    border-bottom: solid 0.1px #212121;
+    color: #000000;
+    text-align: center;
+}

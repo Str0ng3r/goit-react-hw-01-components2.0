@@ -7,13 +7,16 @@ import dataStat from './statistics-comp/data'
 import { ListFriends } from "./friends-comp/friends";
 import './friends-comp/friends-styles.css'
 import friendsData from './friends-comp/friendsdata'
+import { TransactionTable } from "./tranzaction-comp/transaction";
+import transDate from './tranzaction-comp/transactions'
+import './tranzaction-comp/transaction-styles.css'
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        flexDirection:'column',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101'
@@ -23,6 +26,7 @@ export const App = () => {
       </UserProfile>
       <AllStatistics statistics={dataStat}></AllStatistics>
 <ListFriends dataFriend={friendsData}></ListFriends>
+<TransactionTable transdata={transDate}></TransactionTable>
     </div>
   );
 };
