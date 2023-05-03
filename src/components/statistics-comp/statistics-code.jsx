@@ -5,10 +5,10 @@ export const AllStatistics = ({ statistics }) => {
         <div className="cont-statistic">
           <h2 className="title-stats">UPLOAD STATS</h2>
           <ul className="stats-list">
-            {statistics.map((item) => (
-              <li className="li-stat" key={item.id}>
-                {item.label}
-                <span className="procent">{item.percentage}%</span>
+            {statistics.map(({id,label,percentage}) => (
+              <li className="li-stat" key={id}>
+                {label}
+                <span className="procent">{percentage}%</span>
               </li>
             ))}
           </ul>

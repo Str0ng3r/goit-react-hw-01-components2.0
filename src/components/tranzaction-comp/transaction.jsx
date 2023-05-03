@@ -10,11 +10,11 @@ export const TransactionTable = ({transdata}) => {
     </tr>
   </thead>
   <tbody>
-{transdata.map((item)=> (
-<tr className="tr-table" key={item.id}>
-    <td className="td-trans">{item.type}</td>
-    <td className="td-trans">{item.amount}</td>
-    <td className="td-trans">{item.currency}</td>
+{transdata.map(({id,type,amount,currency})=> (
+<tr className="tr-table" key={id}>
+    <td className="td-trans">{type}</td>
+    <td className="td-trans">{amount}</td>
+    <td className="td-trans">{currency}</td>
 </tr>
 ))}
   </tbody>
