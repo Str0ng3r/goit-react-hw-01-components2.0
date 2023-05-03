@@ -1,4 +1,4 @@
-.wrap-cont {
+.profile {
     margin: 0 auto;
     background-color: black;
     padding: 30px;
@@ -8,13 +8,13 @@
     align-items: center;
     justify-content: center;
 }
-.card-cont {
+.cardcont {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.img-avatar {
+.imgavatar {
     border-radius: 30px;
     width: 100px;
     padding: 5px;
@@ -37,12 +37,7 @@
     color: #FFF;
     font-size: 18px;
 }
-.wrap-cont {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
-.stats-cont {
+.statscont {
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -57,6 +52,6 @@
     align-items: center;
     justify-content: center;
 }
-.stat-span {
+.statspan {
     color: #1FF1FF;
 }

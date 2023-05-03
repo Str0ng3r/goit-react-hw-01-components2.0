@@ -1,4 +1,4 @@
-.cont-statistic {
+.contstatistic {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,34 +6,34 @@
     background-color: antiquewhite;
     margin-top: 40px;
 }
-.title-stats {
+.titlestats {
     text-align: center;
     font-size: 32px;
     margin: 0;
     padding: 10px;
 }
-.stats-list {
+.statslist {
     display: flex;
     justify-content: space-around;
     padding: 0;
     margin: 0;
 }
-.li-stat {
+.listat {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-width: 105px;
+    width: 105px;
 }
-.li-stat:nth-child(1) {
+.listat:nth-child(1) {
     background-color: aqua;
 }
-.li-stat:nth-child(2) {
+.listat:nth-child(2) {
     background-color: yellow;
 }
-.li-stat:nth-child(3) {
+.listat:nth-child(3) {
     background-color: pink;
 }
-.li-stat:nth-child(4) {
+.listat:nth-child(4) {
     background-color: green;
 }

@@ -1,11 +1,11 @@
-.users-list {
+.userslist {
 display: flex;
 flex-direction: column;
 align-items: baseline;
 justify-content: center;
 gap: 10px;
 }
-.li-user {
+.liuser {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -14,21 +14,21 @@ gap: 10px;
     padding-right: 80px;
     border-radius: 5px;
 }
-.avatar-user {
+.avataruser {
     width: 50px;
 }
-.green-circ {
+.greencirc {
     width: 30px;
     background-color: green;
     border-radius: 15px;
     height: 30px;
     margin-right: 5px;
 }
-.name-user {
+.nameuser {
     font-size: 20px;
     margin: 0;
 }
-.red-circ {
+.redcirc {
     margin-right: 5px;
     width: 30px;
     height: 30px;

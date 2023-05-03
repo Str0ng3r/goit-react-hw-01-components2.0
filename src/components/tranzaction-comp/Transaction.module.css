@@ -1,11 +1,11 @@
-.th-trans {
+.thtrans {
     font-size: 20px;
     width: 200px;
     background-color: darkturquoise;
     color: black;
     padding: 20px 0 20px 0;
 }
-.td-trans {
+.tdtrans {
     background-color: darkgray;
     font-size: 20px;
     padding: 10px 0 10px 0;

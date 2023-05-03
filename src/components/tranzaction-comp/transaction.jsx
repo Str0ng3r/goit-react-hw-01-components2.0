@@ -1,20 +1,21 @@
 import PropTypes from "prop-types"
+import style from './Transaction.module.css'
 export const TransactionTable = ({transdata}) => {
     return(
-        <table className="trans-table">
+        <table>
             <thead>
     <tr>
-      <th className="th-trans">Type</th>
-      <th className="th-trans">Amount</th>
-      <th className="th-trans">Currency</th>
+      <th className={style.thtrans}>Type</th>
+      <th className={style.thtrans}>Amount</th>
+      <th className={style.thtrans}>Currency</th>
     </tr>
   </thead>
   <tbody>
 {transdata.map(({id,type,amount,currency})=> (
-<tr className="tr-table" key={id}>
-    <td className="td-trans">{type}</td>
-    <td className="td-trans">{amount}</td>
-    <td className="td-trans">{currency}</td>
+<tr key={id}>
+    <td className={style.tdtrans}>{type}</td>
+    <td className={style.tdtrans}>{amount}</td>
+    <td className={style.tdtrans}>{currency}</td>
 </tr>
 ))}
   </tbody>
