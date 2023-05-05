@@ -6,12 +6,12 @@ export const ListFriends = ({dataFriend}) => {
         <section>
         <ul className={style.userslist}>
 {dataFriend.map(({avatar,name,isOnline,id}) => (
-    <MakeFriends avatar={avatar} name={name} isOnline={isOnline} id={id}></MakeFriends>
+    <MakeFriends avatar={avatar} name={name} isOnline={isOnline} key={id} ></MakeFriends>
 ))}
         </ul>
         </section>
     )
 }
 ListFriends.propTypes = {
-dataFriend: propTypes.array
+dataFriend: propTypes.arrayOf(propTypes.object).isRequired
 }

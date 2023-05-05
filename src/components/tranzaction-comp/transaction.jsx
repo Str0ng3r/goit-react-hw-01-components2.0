@@ -23,5 +23,5 @@ export const TransactionTable = ({transdata}) => {
     )
 }
 TransactionTable.propTypes = {
-  transdata: PropTypes.array
+  transdata: PropTypes.arrayOf(PropTypes.object).isRequired
 }

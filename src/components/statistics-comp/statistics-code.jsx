@@ -18,5 +18,5 @@ export const AllStatistics = ({ statistics }) => {
     );
   };
   AllStatistics.propTypes = {
-    statistics: propTypes.array
+    statistics: propTypes.arrayOf(propTypes.object).isRequired
   }

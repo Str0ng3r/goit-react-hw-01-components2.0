@@ -20,9 +20,9 @@ export const UserProfile = ({username,tag,location,avatar,stats}) => {
 };
 
 UserProfile.propTypes = {
-    username:propTypes.string,
-    tag:propTypes.string,
-    location:propTypes.string,
-    avatar:propTypes.string,
-    stats:propTypes.object
+    username:propTypes.string.isRequired,
+    tag:propTypes.string.isRequired,
+    location:propTypes.string.isRequired,
+    avatar:propTypes.string.isRequired,
+    stats:propTypes.object.isRequired
 }
