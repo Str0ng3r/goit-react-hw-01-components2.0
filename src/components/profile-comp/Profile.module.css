@@ -1,57 +1,57 @@
 .profile {
-    margin: 0 auto;
-    background-color: black;
-    padding: 30px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin: 0 auto;
+  background-color: black;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cardcont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .imgavatar {
-    border-radius: 30px;
-    width: 100px;
-    padding: 5px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+  border-radius: 30px;
+  width: 100px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .name {
-    font-size: 36px;
-    margin-bottom: 6px;
-    color: #FFF;
-    margin-top: 0px;
+  font-size: 36px;
+  margin-bottom: 6px;
+  color: #fff;
+  margin-top: 0px;
 }
 .tag {
-    text-align: center;
-    font-size: 16px;
-    color: #FFFF21;
-    margin-bottom: 6px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffff21;
+  margin-bottom: 6px;
 }
 .location {
-    color: #FFF;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
 .statscont {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 0;
 }
 .stat {
-    font-size: 16px;
-    color: #FFF;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .statspan {
-    color: #1FF1FF;
+  color: #1ff1ff;
 }

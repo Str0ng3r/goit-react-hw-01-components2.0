@@ -1,37 +1,37 @@
 .userslist {
-display: flex;
-flex-direction: column;
-align-items: baseline;
-justify-content: center;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
 }
 .liuser {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: beige;
-    padding: 5px;
-    padding-right: 80px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding: 5px;
+  padding-right: 80px;
+  border-radius: 5px;
 }
 .avataruser {
-    width: 50px;
+  width: 50px;
 }
 .greencirc {
-    width: 30px;
-    background-color: green;
-    border-radius: 15px;
-    height: 30px;
-    margin-right: 5px;
+  width: 30px;
+  background-color: green;
+  border-radius: 15px;
+  height: 30px;
+  margin-right: 5px;
 }
 .nameuser {
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
 .redcirc {
-    margin-right: 5px;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border-radius: 15px;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 15px;
 }
